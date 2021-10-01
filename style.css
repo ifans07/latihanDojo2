@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    font-family: "Lucida Grande";
+}
+li{
+    list-style: none;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.top-wrapper{
+    padding: 180px 0;
+    background-image: url(assets/bg.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    background-position: 0 -250px;
+}
+.top-wrapper h1{
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    opacity: 0.7;
+}
+.top-wrapper p{
+    margin-bottom: 3px;
+    opacity: 0.7;
+}
+.btn-wrapper{
+    margin: 20px 0;
+}
+.btn-wrapper p{
+    margin: 10px 0;
+}
+.btn{
+    padding: 12px 24px;
+    display: inline-block;
+    color: white;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+.btn:hover{
+    opacity: 1;
+}
+.signup{
+    background-color: #239b76;
+}
+.facebook{
+    background-color: #3b5998;
+    margin-right: 10px;
+}
+.twitter{
+    background-color: #55acee;
+}
+
+header{
+    height: 72px;
+    background-color: rgba(29, 53, 87, 0.9);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+.header-left{
+    float: left;
+}
+.logo{
+    width: 124px;
+    margin-top: 24px;
+}
+.header-right{
+    float: right;
+    margin-left: 20px;
+}
+.header-mid{
+    float: right;
+}
+.header-mid li a{
+    color: #fff;
+    padding: 12px 20px;
+    transition: all 0.5s;
+}
+.header-mid li{
+    line-height: 72px;
+    float: left;
+    margin-right: 12px;
+}
+.login{
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 0 25px;
+    display: block;
+    line-height: 72px;
+    transition: all 0.5s;
+}
+.login:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.header-mid li a:hover {
+    border-bottom: 4px solid rgba(255, 255, 255, 0.5);
+}
+
+.lesson-wrapper{
+    background-color: #f7f7f7;
+    text-align: center;
+    height: 500px;
+    padding-bottom: 80px;
+}
+.heading{
+    padding-top: 60px;
+    margin-bottom: 30px;
+    color: #5f5d60;
+}
+.heading h2{
+    font-weight: normal;
+}
+.lesson{
+    width: 25%;
+    float: left;
+}
+.lesson-icon{
+    position: relative;
+    color: #fff;
+}
+.lesson-icon p{
+    position: absolute;
+    top: 90px;
+    width: 100%;
+}
+.txt-content{
+    font-size: 15px;
+    color: #b3aeb5;
+    margin-top: 20px;
+    width: 80%;
+    display: inline-block;
+}
+
+.message-wrapper{
+    text-align: center;
+    padding-bottom: 80px;
+    border-bottom: 1px solid #eee;
+}
+.heading h3{
+    font-weight: normal;
+}
+
+.message{
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+}
+.message:active{
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+footer img{
+    width: 124px;
+    margin-top: 30px;
+}
+footer p{
+    font-size: 14px;
+    color: #b3aeb5;
+}
