@@ -23,7 +23,6 @@ li{
     text-align: center;
     color: white;
     background-position: 0 -250px;
-    background-attachment: fixed;
     transition: all 0.5s;
 }
 .top-wrapper h1{

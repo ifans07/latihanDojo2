@@ -7,8 +7,10 @@
         padding: 0;
     }
     .top-wrapper{
-        background-size: cover;
-        background-position: 50% 50%;
+        background-position: right;
+    }
+    .top-wrapper h1{
+        font-size: 32px;
     }
 }
 
@@ -28,10 +30,9 @@
     }
     .top-wrapper{
         text-align: left;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: 50% -130px;
-        background-attachment: unset;
+        /* background-size: cover; */
+        /* background-position: 0 -130px; */
+        background-position: left;
     }
     .top-wrapper h1{
         font-size: 24px;
@@ -46,5 +47,11 @@
     }
     .lesson-wrapper{
         padding: 0px;
+    }
+    .heading h2{
+        font-size: 20px;
+    }
+    footer{
+        text-align: center;
     }
 }
