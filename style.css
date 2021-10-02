@@ -61,7 +61,9 @@ li{
 .twitter{
     background-color: #55acee;
 }
-
+.fab{
+    margin-right: 5px;
+}
 header{
     height: 72px;
     background-color: rgba(29, 53, 87, 0.9);
