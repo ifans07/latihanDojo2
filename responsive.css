@@ -18,6 +18,7 @@
     }
     .top-wrapper{
         text-align: left;
+        background-size: cover;
         background-position: 50% -120px;
     }
     .top-wrapper h1{
@@ -30,5 +31,8 @@
     }
     .btn-wrapper p{
         text-align: center;
+    }
+    .lesson-wrapper{
+        padding-bottom: 80px;
     }
 }
