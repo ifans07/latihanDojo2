@@ -29,7 +29,9 @@
     .top-wrapper{
         text-align: left;
         background-size: cover;
+        background-repeat: no-repeat;
         background-position: 50% -130px;
+        background-attachment: unset;
     }
     .top-wrapper h1{
         font-size: 24px;
